@@ -1,2 +1,0 @@
-# seotask
-# CUTE NI IAN

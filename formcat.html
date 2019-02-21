@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <meta name="description" content="">
 <meta name="author" content="">
-<title>PDFQuick</title>
+<title>PDFQuick | Category</title>
 <!-- Bootstrap Core CSS -->
 <link href="https://pdfquick.com/assets/css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom CSS -->
@@ -17,40 +17,30 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700" rel="stylesheet">
 <link rel="shortcut icon" href="https://pdfquick.com/assets/images/favicon.ico" />
-<link href="https://pdfquick.com/assets/lib/css/main_template_2.min.css" rel="stylesheet">
-<!-- use these css for modifications, minified version run `gulp minify` in terminal. DO NOT REMOVE CODE IN COMMENT BELOW -->
-<!--<link href="https://pdfquick.com/assets/css/cssReset.css" rel="stylesheet">
-    <link href="https://pdfquick.com/assets/css/animate.css" rel="stylesheet">
-    <link href="https://pdfquick.com/assets/bower_components/lobibox/css/lobibox.css" rel="stylesheet">
-    <link href="https://pdfquick.com/assets/css/nprogress.css" rel="stylesheet" /> -->
+<link href="https://pdfquick.com/assets/css/cssReset.css" rel="stylesheet">
+<link href="https://pdfquick.com/assets/css/animate.css" rel="stylesheet">
 <link rel="stylesheet" href="https://pdfquick.com/assets/css/easy-responsive-tabs.css">
 <link href="https://pdfquick.com/assets/css/style.css" rel="stylesheet">
-
+<link href="https://pdfquick.com/assets/bower_components/lobibox/css/lobibox.css" rel="stylesheet">
+<link href="https://pdfquick.com/assets/css/nprogress.css" rel="stylesheet" />
 
 <!-- jQuery Version 1.11.1 -->
 <script src="https://pdfquick.com/assets/js/jquery.js"></script>
 <script src="https://pdfquick.com/assets/js/wow.min.js"></script>
-<script src="https://pdfquick.com/assets/js/nprogress.js" async></script>
+<script src="https://pdfquick.com/assets/js/nprogress.js"></script>
+<script src="https://pdfquick.com/assets/js/common.js"></script>
 
-
-	<script src="https://pdfquick.com/assets/js/app/dropzone.js"></script>
-
-
-
-	<link href="https://pdfquick.com/assets/css/dropzone.css" rel="stylesheet">
-
-	<link href="https://pdfquick.com/assets/css/custom_home.css" rel="stylesheet">
+	<link href="https://pdfquick.com/assets/css/dashboard/dashboard.css" rel="stylesheet">
 
 	<link href="https://pdfquick.com/assets/css/bootstrap-table.min.css" rel="stylesheet">
 
+	<link href="https://pdfquick.com/assets/css/forms.css" rel="stylesheet">
+
 <link href="https://pdfquick.com/assets/css/ladda-themeless.min.css" rel="stylesheet">
 <script>
-	 var sub_type = "";	 var doc_tickets = "0";	var doc_count = 0;
-	var sub_click = true;
 	var wow = new WOW(
 		{
 			boxClass:     'wow',      // animated element css class (default is wow)
@@ -61,13 +51,11 @@
 	);
 	wow.init();
 	var baseurl = 'https://pdfquick.com/';
-	var isLogin = 'no';
-	var sub_type = '';
 	</script>
-	<!-- start Mixpanel -->
+		<!-- start Mixpanel -->
 	<script src="https://pdfquick.com/assets/js/mixpanel.js"></script>
 	<!-- end Mixpanel -->
-<!-- Hotjar Tracking Code for https://www.pdfformpro.com/ -->
+	<!-- Hotjar Tracking Code for https://www.pdfformpro.com/ -->
 <!-- <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -78,11 +66,8 @@
         a.appendChild(r);
     })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 </script> -->
-<script type="text/javascript" src="https://pdfquick.com/assets/lib/js/main_template_1.min.js"></script>
-<!-- use these css for modifications, minified version run `gulp minify` in terminal. DO NOT REMOVE CODE IN COMMENT BELOW -->
-<!--<script src="https://pdfquick.com/assets/js/common.js"></script>
-    <script type="text/javascript" src="https://pdfquick.com/assets/js/clipboard.min.js"></script>
-    <script type="text/javascript" src="https://pdfquick.com/assets/js/browser-check.js"></script> -->
+<script type="text/javascript" src="https://pdfquick.com/assets/js/clipboard.min.js"></script>
+<script type="text/javascript" src="https://pdfquick.com/assets/js/browser-check.js"></script>
 <!-- Global site tag (gtag.js) - Google Ads: 943539085 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-943539085"></script>
 <script>
@@ -93,16 +78,7 @@
   gtag('config', 'AW-943539085');
   gtag('config', 'UA-133843645-1');
 </script>
-<style>
-    .flag-reg-bg{ } .flag-lp-bg{ } .flag-editor-bg{ } .flag-main-price-bg{ } .flag-price-bg{ }     .select-field .options,
-    .btn-group.state .dropdown-menu{
-        text-align: left !important;
-    }
-
-        .copyrights-quick{
-        text-align:center;
-    }
-</style><script>
+<script>
     window.flow_changes = 'off'
     window.flow = ''
     window.default_flow = '01'
@@ -112,9 +88,18 @@
     window.field_bg = ""
     window.field_color = ""
 </script></head>
-<body>
+<style>
+    .flag-reg-bg{ } .flag-lp-bg{ } .flag-editor-bg{ } .flag-main-price-bg{ } .flag-price-bg{ }     .select-field .options,
+    .btn-group.state .dropdown-menu{
+        text-align: left !important;
+    }
+
+        .copyrights-quick{
+        text-align:center;
+    }
+</style><body>
 <!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top custom">
   <div class="container custom">
 		<div class="container-fluid custom">
 			<div class="navbar-header custom">
@@ -130,12 +115,11 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">FORM CATEGORIES</a></li>
-					<li><a href="#">SUPPORT</a></li>
-					<li><a href="#">PRICING</a></li>
-					<li><a href="#">ABOUT US</a></li>
-					<li><a href="#">CONTACT US</a></li>
+					<li><a href="/ss.html">HOME</a></li>
+					<li><a href="http://support.pdfquick.com">SUPPORT</a></li>
+											<li><a href="https://pdfquick.com/pricing">PRICING</a></li>
+						<li><a href="https://pdfquick.com/about_us">ABOUT US</a></li>
+						<li><a href="https://pdfquick.com/contact_us">CONTACT US</a></li>
 																<li><a href="https://pdfquick.com/login">SIGN IN</a></li>
 									</ul>
 			</div>
@@ -145,98 +129,111 @@
 <!-- /Navigation -->
 
 <!-- Main Container -->
+<div class="mainContainer">
 
-<!-- Main Banner -->
-
-						
-<!-- /Main Banner -->
-
-<!-- Pro Tracker -->
-
-<!-- /Pro Tracker -->
-
-<!-- Pro Features -->
-<div class="proFeatures">
-  <div class="container">
-	  <div class="row">
-		  <h2 class="default-h2">PDFQuick Features</h2>
-			<p class="default-P">Edit your PDF on-the-fly. It's web-based. No installation needed.</p>
+ 	<div class="mainDefault-section">
+	<div class="container">
+		<div class="row">
+							<div class="col-md-12" id="breadcrumb_container">
+					<span style="display:none;">Forms Category</span>				</div>
+						<div class="col-md-12">
+				<h1 class="default-h2">Forms Category</h1>
+			</div>
 		</div>
-
-
-		<!-- left-right Slider -->
-
-	  <!-- before and after slider -->
-	
+		<div class="row">
+			<div class="col-md-7" id="search"> 
+                <div class="row">
+                    <div class="col-md-12">
+                        <search></search>
+                    </div>
+                    <div class="col-md-12">
+                                                    <div class="row">
+                                <div class="category-inner">
+                                    <div class="category_list">
+                                        <div class="inner_list">
+                                            <h2 id="cat_h2">Category</h2>
+                                            <table class="list-category">
+                                                                                                                                                                                                                                                    <tr>
+                                                                                                            <td><a href="https://pdfquick.com/forms/?cat=551" title="PHILIPPINES">PHILIPPINES</a></td>                                                    
+                                                                                                                                                                                                                                                                                                                                                                <td><a href="https://pdfquick.com/forms/?cat=561" title="U.K">U.K</a></td>                                                    
+                                                                                                                                                                    </tr>
+                                                                                                                                                                                                                                                                                                                                                                <tr>
+                                                                                                            <td><a href="https://pdfquick.com/forms/?cat=549" title="U.S.">U.S.</a></td>                                                    
+                                                                                                                                                                                                                                                </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="form-inner">
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+			<div class="col-md-5" id="cat_right">
+				<div class="category_list">
+					<div class="inner_list">
+						<div class="t_list">
+							<h4>Suggested Forms</h4>
+															<a href="https://pdfquick.com/form/w3-2016" title="W-3 (2016)" class="allpdf_a">W3 (2016)</a>
+															<a href="https://pdfquick.com/form/8840" title="8840 (2015)" class="allpdf_a">8840 (2015)</a>
+															<a href="https://pdfquick.com/form/irs-tax-form-1099-misc" title="1099-MISC (2016)" class="allpdf_a">1099 (2016) Misc. Form</a>
+															<a href="https://pdfquick.com/form/W2" title="W2 (2016)" class="allpdf_a">W2 (2016)</a>
+															<a href="https://pdfquick.com/form/i9" title="I-9 (2013-2016)" class="allpdf_a">I-9 (2013-2016)</a>
+															<a href="https://pdfquick.com/form/8962" title="8962 (2015)" class="allpdf_a">8962 (2015)</a>
+															<a href="https://pdfquick.com/form/3949-A" title="3949-A (2016)" class="allpdf_a">3949-A (2016)</a>
+															<a href="https://pdfquick.com/form/1040" title="1040 (2015)" class="allpdf_a">1040 (2015)</a>
+													</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		
-
-		<!-- /left-right Slider -->
 	</div>
 </div>
-<!-- /Pro Features -->
-
-
-<!-- Bottom Pro Features -->
-<div class="bottomProfeatures wow fadeIn" data-wow-delay="0.3s">
-  <div class="container">
-	  <div class="row">
-		  <div class="col-md-4">
-			  <div class="bottm-grid-box">
-					<img src="https://pdfquick.com/assets/images/effortlessStorage-icon.png" alt="">
-					<h4>Effortless Storage</h4>
-					<p>You can conveniently keep your documents and get back to it in the future.</p>
-				</div>
-			</div>
-
-		  <div class="col-md-4">
-			  <div class="bottm-grid-box">
-					<img src="https://pdfquick.com/assets/images/easytouseEditor-icon.png" alt="">
-					<h4>Easy to Use Editor</h4>
-					<p>our PDF editor is straightforward. It has a wide range of easy-to-use tools. No learning curves required!.</p>
-				</div>
-			</div>
-
-		  <div class="col-md-4">
-			  <div class="bottm-grid-box">
-					<img src="https://pdfquick.com/assets/images/shareIt-icon.png" alt="">
-					<h4>Share it to a Friend</h4>
-					<p>When you're done editing your PDF form and now ready to share it with your colleague, it's as easy as a click of a button.</p>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</div>
-<!-- /Bottom Pro Features -->
 
 <!-- Footer -->
 	<div class="footer ">
 	  <div class="footerLabel">
 		  <h2>Create & Edit All Your PDF Forms Online</h2>
-        </div>
-      
-        
-        <div class="container">
-			<div class="col-md-7 pull-left col-sm-5 col-xs-10">
-                <
-                
-
-            </div>
-        </div>
+		</div>
 
 		<div class="container">
-			<div class="col-md-7 pull-right col-sm-5 col-xs-10">
+			<div class="col-md-5 pull-right col-sm-12 col-xs-12">
 				<p>
 				<img src="https://pdfquick.com/assets/images/pdfquick-logo-active.png" alt="">
-                <span class="copyrights-quick">Copyright &copy; 2019 pdfquick.com. All Rights Reserved.</span>
-                    
-                    <p>PDFQuick is an online PDF reader, editor & form filler. </br> </br>   
-                    A new way to open and edit PDF files online, PDFQuick frees users from the regular software requirements
-                    for using the de facto document file format and installation. Completely web-based, PDFQuick requires no
-                    more than a modern internet browser and an active internet connection</p>
-               
+				<span class="copyrights-quick">Copyright &copy; 2019 pdfquick.com. All Rights Reserved.</span>
 				</p>
+			</div>
+			<div class="col-md-7">
+				<p>PDFQuick is an online PDF reader, editor & form filler</p>
+				<p>A new way to open and edit PDF files online, PDFQuick frees users from the regular software requirements
+				for using the de facto document file format and installation. Completely web-based, PDFQuick requires no
+				more than a modern internet browser and an active internet connection</p>
+		  	<p>
+		  	<img class="siteaddress1" src="https://pdfquick.com/assets/images/pdfq_wht_address_1.png">
+		  	<img class="siteaddress2" src="https://pdfquick.com/assets/images/pdfq_wht_address_2.png">
+		  	<img class="siteaddress3" src="https://pdfquick.com/assets/images/pdfq_wht_address_3.png">
+			</p>
+			</div>
+
+			<div class="col-md-12">
+				<br>
+				<div class="pdfformpro-address-sitemap-section">
+					<p>
+					<a href="https://pdfquick.com/">Home</a> &nbsp; &nbsp;
+					<a href="http://support.pdfquick.com">Support</a> &nbsp; &nbsp;
+					<a href="https://pdfquick.com/pricing">Pricing</a> &nbsp; &nbsp;
+					<a href="https://pdfquick.com/privacy">Privacy Policy</a> &nbsp; &nbsp;
+					<a href="https://pdfquick.com/terms_of_service">Terms of Service</a> &nbsp; &nbsp;
+					<a href="https://pdfquick.com/about_us">About us</a>  &nbsp; &nbsp;
+					<a href="https://pdfquick.com/forms">Forms</a> &nbsp; &nbsp;
+					<a href="https://pdfquick.com/contact_us">Contact Us</a> &nbsp; &nbsp;
+					</p>
+
+				</div>
 			</div>
 		</div>
 	</div>
@@ -250,28 +247,21 @@
 <div class="scroll-top-wrapper">
   <span class="scroll-top-inner"><i class="fa fa-chevron-up"></i></span>
 </div>
-<!-- /scroll to top -->
 
-<div class="loader-pencil-content" v-show="isLoading">
-	<img class="pencil" src="/assets/images/spinner.gif" alt="" width="100" >
-</div>
+
+<!-- scroll to top -->
 
 
 <script src="https://pdfquick.com/assets/bower_components/lobibox/js/notifications.js"></script>
-
-	<script src="https://pdfquick.com/assets/js/app/upload_function.js"></script>
 
 	<script src="https://pdfquick.com/assets/js/bootstrap-table.min.js"></script>
 
 	<script src="https://pdfquick.com/assets/js/bootstrap-table.js"></script>
 
-	<script src="https://apis.google.com/js/api.js"></script>
+	<script src="https://pdfquick.com/assets/js/jquery.autocomplete.min.js"></script>
 
 	<script src="https://pdfquick.com/assets/dist/search/app.js"></script>
 
-
-
-<!-- scroll to top -->
 <script>
 $(function(){
 	$(document).on( 'scroll', function(){
@@ -293,7 +283,13 @@ function scrollToTop() {
 	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
 }
 </script>
-<!-- /scroll to top -->
+
+
+<div class="loader-pencil-content" v-show="isLoading">
+	<div class="pencil">
+		<img src="/assets/images/spinner.gif" alt="" width="100" >
+	</div>
+</div>
 
 <script type="text/javascript" src="https://pdfquick.com/assets/js/easyResponsiveTabs.js"></script>
 <script type="text/javascript">
@@ -387,21 +383,6 @@ $(document).ready(function(){
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 	})();
 	</script>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-<!--
-        <div class="col-md-7">
-<p>
-    <img class="siteaddress1" src="https://pdfquick.com/assets/images/pdfq_wht_address_1.png">
-    <img class="siteaddress2" src="https://pdfquick.com/assets/images/pdfq_wht_address_2.png">
-    <img class="siteaddress3" src="https://pdfquick.com/assets/images/pdfq_wht_address_3.png">
-  </p>
-  </div> -- >
